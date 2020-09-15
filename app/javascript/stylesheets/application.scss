@@ -5,3 +5,17 @@
 h1 {
   color: red;
 }
+
+figure {
+  border: 1px solid grey;
+}
+
+figcaption {
+  padding: 5px;
+  font: italic 12px Arial;
+  text-align: center;
+}
+
+#nav-logo {
+  width: 50%;
+}

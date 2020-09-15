@@ -1,0 +1,10 @@
+<div class="w-full px-4 md:px-6 text-xl text-gray-800 mb-4">
+  <h1 class="font-bold text-gray-900 text-3xl md:text text-center">VIDEOS</h1>
+  <p class="text-sm md:text-base font-normal text-gray-600 text-center">Nobody's here to read</p>
+</div>
+
+<% @videos.each do |video| %>
+  <div class="w-full px-4 md:px-6 text-gray-800 mb-4">
+    <%= render partial: 'shared/featured_video_card', locals: { video: video } %>
+  </div>
+<% end %>
