@@ -7,7 +7,6 @@ class StaticController < ApplicationController
   def about; end
 
   def letsencrypt
-    binding.pry
     render text: "#{params[:id]}.#{ENV['LETS_ENCRYPT_KEY']}"
   end
 end
