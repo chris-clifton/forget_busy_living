@@ -5,6 +5,9 @@ Rails.application.routes.draw do
 
   resources :videos, only: [:index, :show]
 
+  # letsencrypt/ssl certificate
+  get '/.well-known/acme-challenge/:id', to: "static#letsencrypt", constraints: { id: /[a-z0-9_-]+/i }
+
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   root 'static#index'
 end

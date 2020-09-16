@@ -5,4 +5,8 @@ class StaticController < ApplicationController
   end
 
   def about; end
+
+  def letsencrypt
+    render text: "#{params[:id]}.#{ENV['LETS_ENCRYPT_KEY']}"
+  end
 end
