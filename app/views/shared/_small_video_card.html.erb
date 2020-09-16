@@ -1,6 +1,6 @@
-<div>
-  <div class="inline-block">
-    <%= image_tag('camera_and_tapes', size: "150x150") %>
+<div class='border border-gray-100 rounded p-2 shadow'>
+  <div class='iframe-container' style="display:flex;position:relative;margin:0; justify-content: center;">
+    <iframe class='responsive-iframe' width="720" height="480" src="https://www.youtube.com/embed/<%= video.youtube_id %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div class="inline-block align-top">
     <div class="font-bold text-xl"><%= video.title %></div>

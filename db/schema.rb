@@ -18,7 +18,10 @@ ActiveRecord::Schema.define(version: 2020_09_15_041826) do
   create_table "videos", force: :cascade do |t|
     t.string "title"
     t.text "description"
-    t.string "youtube_link"
+    t.string "youtube_id"
+    t.boolean "potato_quality"
+    t.integer "views"
+    t.datetime "original_post_date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
