@@ -36,3 +36,13 @@ Video.create( title: 'FUCK THIS VIDEO',
               description: "Gilbert's video.",
               youtube_id: 'tisXf6_I7TQ',
               original_post_date: Date.new(2005, 01, 01))
+
+Video.create( title: 'THE BOYS VS. DC',
+              description: "Gold Rail, Freedom Plaza, and some random rail.  Guessing this was around 2004 or 2005.",
+              youtube_id: "8OzXWEjFh3w",
+              original_post_date: Date.new(2005, 01, 01))
+
+Video.create( title: 'CURTIS AND JIFFY LUBE',
+              description: "It's still amazing to me that we skated Curtis every day.",
+              youtube_id: "vWvkN6FFCp4",
+              original_post_date: Date.today)
