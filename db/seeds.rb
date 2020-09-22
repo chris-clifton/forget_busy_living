@@ -32,3 +32,7 @@ Video.create( title: 'FiveFourNo teaser',
               youtube_id: '2FY_s8MkIe8',
               original_post_date: Date.new(2006, 02, 28))
 
+Video.create( title: 'FUCK THIS VIDEO',
+              description: "Gilbert's video.",
+              youtube_id: 'tisXf6_I7TQ',
+              original_post_date: Date.new(2005, 01, 01))
