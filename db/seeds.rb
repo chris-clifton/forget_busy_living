@@ -45,4 +45,39 @@ Video.create( title: 'THE BOYS VS. DC',
 Video.create( title: 'CURTIS AND JIFFY LUBE',
               description: "It's still amazing to me that we skated Curtis every day.",
               youtube_id: "vWvkN6FFCp4",
-              original_post_date: Date.today)
+              original_post_date: Date.new(2020, 10, 15))
+
+Video.create( title: 'ITS HARD TO LOOK RIGHT AT YOU BABY',
+              description: "Little GoPro edit from the 15th and Clearfield banks in Philly. This was filmed and edited sometime in 2014.",
+              youtube_id: 'b7HhS_e-MtQ',
+              original_post_date: Date.new(2020, 12, 02))
+
+Video.create( title: 'FISHTOWN',
+              description: 'Misc footage from a GoPro in Fishtown around 2012.',
+              youtube_id: 'YwMR8u0fSFA',
+              original_post_date: Date.new(2020, 12, 02))
+
+Video.create( title: 'THE MARK THOMAS AND BRAXTON SHOW',
+              description: "This wasn't even one of my tapes but finders keepers, I guess.  Fort Belvoir, Quantico, misc. Stafford/Fredericksburg somewhere around 2005",
+              youtube_id: 'XUyxXcx_7ag',
+              original_post_date: Date.new(2020, 12, 02))
+
+Video.create( title: '17 BANKS',
+              description: "17 Banks with Teddy and Connor.",
+              youtube_id: 'Em5sZrlOiMM',
+              original_post_date: Date.new(2020, 12, 02))
+
+Video.create( title: 'BANNED IN DC',
+              description: "Everyone gets kicked out of everywhere in DC.  Marshall gets a few tricks and everyone else gets vintage 2005 Teddy bullshit.",
+              youtube_id: 'OTf39KtYeng',
+              original_post_date: Date.new(2020, 12, 02))
+
+Video.create( title: 'GOD FORBID SOMEBODY ELSE WANTS TO FILM SOMETHING',
+              description: "Gilbert flops around at 17 Banks and wastes my precious film in DC.",
+              youtube_id: 'HtwwShChOPE',
+              original_post_date: Date.new(2020, 12, 02))
+
+Video.create( title: 'I NEVER MISS A TRICK- I GET EM ALL',
+              description: "Mark bets Marshall cigarettes he at least lands on it next try, I can't ride a skateboard while filming, and Teddy yells a lot.",
+              youtube_id: 'qWqlrkaa2AY',
+              original_post_date: Date.new(2020, 12, 02))
