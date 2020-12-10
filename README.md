@@ -23,6 +23,11 @@ alpinejs
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+* Deployment
+- Add new video files to seeds.rb
+- `heroku run rake db:seed`
+
+* Deployment Gotchas
+- Sometimes Heroku blows up with a 'cannot detect rake tasks' error.  Need to remove the line 'bundled with 2.0.1' from Gemfile.lock to solve.
 
 * ...
