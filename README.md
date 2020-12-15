@@ -24,8 +24,8 @@ alpinejs
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment
-- Add new video files to seeds.rb
-- `heroku run rake db:seed`
+- Add new video files to seeds.
+- Need to really do better than this but it keeps the video IDs in check for now.
 
 * Deployment Gotchas
 - Sometimes Heroku blows up with a 'cannot detect rake tasks' error.  Need to remove the line 'bundled with 2.0.1' from Gemfile.lock to solve.
