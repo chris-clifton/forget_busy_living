@@ -1,8 +1,7 @@
 <%= link_to video_path(video) do %>
   <div class='card-container border border-gray-500 rounded p-2 shadow'>
-    <div style="display:flex;position:relative;margin:0; justify-content: center;">
-      <%= image_tag(video_thumbnail(video)) %>
-    </div>
+    <%= image_tag(video_thumbnail(video)) %>
+    
     <div class="inline-block align-top">
       <div class="font-bold text-xl"><%= video.title %></div>
       <div><%= video.description %></div>
