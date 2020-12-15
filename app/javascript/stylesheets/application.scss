@@ -1,19 +1,38 @@
+/* tailwind */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* fontawesome */
+@import '@fortawesome/fontawesome-free';
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.footer, .push {
+  height: 50px;
+}
+
 body {
+  color:#D6D6D7;
+  background-color: #202124;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 h1 {
-  color: red;
+  color:#D6D6D7;
 }
 
-// figure {
-//   border: 1px solid grey;
-// }
+p {
+  color:#D6D6D7;
+}
 
 figcaption {
   padding: 5px;
@@ -23,6 +42,28 @@ figcaption {
 
 #nav-logo {
   width: 60%;
+}
+
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
+#header-menu {
+  background-color: #282C2F;
+  color:#D6D6D7;
+}
+
+nav {
+  background-color: #282C2F;
+}
+
+li {
+  color:#D6D6D7;
+}
+
+.card-container {
+  background-color: #282C2F;
+  color:#D6D6D7;
 }
 
 .iframe-container {

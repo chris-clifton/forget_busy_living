@@ -1,10 +1,13 @@
-<div class='border border-gray-100 rounded shadow p-2'>
-  <div class='iframe-container' style="display:flex;position:relative;margin:0; justify-content: center;">
-    <iframe class='responsive-iframe' width="720" height="480" src="https://www.youtube.com/embed/<%= video.youtube_id %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<%= link_to video_path(video) do %>
+  <div class='card-container border border-gray-500 rounded shadow p-2'>
+    <!-- create a partial here that shows the video with some overlays (name, length,)-->
+    <div style="display:flex;position:relative;margin:0; justify-content: center;">
+      <%= image_tag(video_thumbnail(video)) %>
+    </div>
+    <div>
+      <div class="font-bold text-xl"><%= video.title.upcase %></div>
+      <div class="text-gray-500"><em><%= video.original_post_date.strftime("%B #{video.original_post_date.day.ordinalize}, %Y") %></em></div>
+      <div><%= video.description %></div>
+    </div>
   </div>
-  <div>
-    <div class="font-bold text-xl"><%= video.title.upcase %></div>
-    <div class="text-gray-500"><em><%= video.original_post_date.strftime("%B #{video.original_post_date.day.ordinalize}, %Y") %></em></div>
-    <div><%= video.description %></div>
-  </div>
-</div>
+<% end %>

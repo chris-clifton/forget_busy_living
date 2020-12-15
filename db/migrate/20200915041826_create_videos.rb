@@ -4,8 +4,7 @@ class CreateVideos < ActiveRecord::Migration[6.0]
       t.string :title
       t.text :description
       t.string :youtube_id
-      t.boolean :potato_quality
-      t.integer :views
+      t.string :image_url
       t.datetime :original_post_date
 
       t.timestamps

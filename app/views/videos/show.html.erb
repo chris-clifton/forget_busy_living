@@ -1,24 +1,19 @@
-<p id="notice"><%= notice %></p>
+<div class="w-full px-4 md:px-6 mb-4">
+  <div class='card-container border border-gray-500 rounded p-2 shadow'>
+    <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @video.title %>
-</p>
+      <div class='iframe-container' style="display:flex;position:relative;margin:0; justify-content: center;">
+        <iframe class='responsive-iframe' width="720" height="480" src="https://www.youtube.com/embed/<%= @video.youtube_id %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    
+    <p class='pt-2 font-bold text-xl'>
+      <%= @video.title %>
+    </p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @video.description %>
-</p>
+    <p class='pt-2'>
+      <%= @video.description %>
+    </p>
+  </div>
+</div>
 
-<p>
-  <strong>Description:</strong>
-  <%= @video.description %>
-</p>
-
-<p>
-  <strong>Youtube link:</strong>
-  <%= @video.youtube_link %>
-</p>
-
-<%= link_to 'Edit', edit_video_path(@video) %> |
-<%= link_to 'Back', videos_path %>
+<%= link_to '<<< BACK TO VIDEOS', videos_path, class: 'p-4 mb-4' %>

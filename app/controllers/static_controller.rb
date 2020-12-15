@@ -1,8 +1,5 @@
 class StaticController < ApplicationController
-  def index
-    @featured_video = Video.first
-    @videos = Video.all
-  end
+  def index; end
 
   def about; end
 end
