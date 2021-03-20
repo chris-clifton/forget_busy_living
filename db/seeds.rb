@@ -118,3 +118,9 @@ Video.create(title: "I CAN'T HOLD IT ANYMORE",
              youtube_id: 'RvRqIcU2mqg',
              original_post_date: Date.new(2020, 12, 15),
              image_url: 'https://forgetbusyliving.s3.us-east-2.amazonaws.com/+i_cant_hold_it_anymore_thumbnail.png')
+
+Video.create(title: 'FIVEFOURNO',
+             description: 'Original video in better quality thanks to Ricky finding the DVD',
+             youtube_id: 'gpCAEPH16NA',
+             original_post_date: Date.new(2021, 03, 20),
+             image_url: 'https://forgetbusyliving.s3.us-east-2.amazonaws.com/fivefourno.png')
