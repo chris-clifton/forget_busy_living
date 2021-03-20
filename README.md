@@ -25,7 +25,9 @@ alpinejs
 
 * Deployment
 - Add new video files to seeds.
-- `heroku run rake db:setup`
+- `heroku pg:reset DATABASE_URL`
+- `heroku run rake db:migrate`
+- `heroku run rake db:seed`
 
 * Deployment Gotchas
 - Sometimes Heroku blows up with a 'cannot detect rake tasks' error.  Need to remove the line 'bundled with 2.0.1' from Gemfile.lock to solve.
