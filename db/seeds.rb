@@ -124,3 +124,9 @@ Video.create(title: 'FIVEFOURNO',
              youtube_id: 'gpCAEPH16NA',
              original_post_date: Date.new(2021, 03, 20),
              image_url: 'https://forgetbusyliving.s3.us-east-2.amazonaws.com/fivefourno.png')
+
+Video.create(title: 'The Charlotte Tape',
+             description: 'The boys visit Gilbert in Charlotte',
+             youtube_id: 'bhT6o9WGewY',
+             original_post_date: Date.new(2021, 03, 21),
+             image_url: 'https://forgetbusyliving.s3.us-east-2.amazonaws.com/charlotte.jpg')
