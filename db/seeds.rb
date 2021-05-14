@@ -130,3 +130,9 @@ Video.create(title: 'The Charlotte Tape',
              youtube_id: 'bhT6o9WGewY',
              original_post_date: Date.new(2021, 03, 21),
              image_url: 'https://forgetbusyliving.s3.us-east-2.amazonaws.com/charlotte.jpg')
+
+Video.create(title: 'Mostly Richmond',
+             description: "Probably the first tape so far that hasn't really been seen before",
+             youtube_id: 'sDHrjVC_3Z8',
+             original_post_date: Date.new(2021, 05, 13),
+             image_url: 'https://forgetbusyliving.s3.us-east-2.amazonaws.com/grant.png')
