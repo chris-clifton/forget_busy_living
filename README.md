@@ -31,3 +31,5 @@ alpinejs
 - Sometimes Heroku blows up with a 'cannot detect rake tasks' error.  Need to remove the line 'bundled with 2.0.1' from Gemfile.lock to solve.
 
 * ...
+
+Test githubscanner
